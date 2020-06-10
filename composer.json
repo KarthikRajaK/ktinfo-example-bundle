@@ -1,0 +1,28 @@
+{
+    "name": "ktinfo/example-bundle",
+    "description": "Example Bundle for Experimenting shopware 6",
+    "version": "v1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karthikraja",
+            "email": "karthikraja.k@widas.in",
+            "homepage": "https://widas.in",
+            "role": "Developer"
+        }
+    ],
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Ktinfo\\ExampleBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Ktinfo\\ExampleBundle\\ExampleBundle",
+        "copyright": "(c) by karthikraja",
+        "label": {
+            "de-DE": "Bundle Example for Shopware 6",
+            "en-GB": "Bundle Example for Shopware 6"
+        }
+    }
+}
