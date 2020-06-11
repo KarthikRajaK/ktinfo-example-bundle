@@ -11,6 +11,11 @@
             "role": "Developer"
         }
     ],
+    "require": {
+        "shopware/core": "*",
+        "shopware/administration": "*",
+        "shopware/storefront": "*"
+    },
     "type": "shopware-platform-plugin",
     "autoload": {
         "psr-4": {
