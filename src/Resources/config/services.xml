@@ -16,5 +16,9 @@
         <service id="Ktinfo\ExampleBundle\Core\Content\Bundle\Aggregate\BundleProduct\BundleProductDefinition">
             <tag name="shopware.entity.definition" entity="ktinfo_bundle_product"/>
         </service>
+
+        <service id="Ktinfo\ExampleBundle\Core\Content\Bundle\Aggregate\BundleTranslation\BundleTranslationDefinition">
+            <tag name="shopware.entity.definition" entity="ktinfo_bundle_translation"/>
+        </service>
     </services>
 </container>
